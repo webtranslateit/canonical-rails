@@ -5,7 +5,7 @@ require "canonical-rails/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "canonical-rails"
+  s.name        = "webtranslateit-canonical-rails"
   s.version     = CanonicalRails::VERSION
   s.authors     = ["Denis Ivanov"]
   s.email       = ["visible@jumph4x.net"]
@@ -16,9 +16,9 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency 'actionview', '>= 4.1', '< 8.1'
+  s.add_dependency 'actionview', '>= 4.1', '< 8.2'
 
-  s.add_development_dependency 'actionpack', '>= 4.1', '< 8.1'
+  s.add_development_dependency 'actionpack', '>= 4.1', '< 8.2'
   s.add_development_dependency 'appraisal'
   s.add_development_dependency 'rspec-rails', '~> 4.0.1'
   s.add_development_dependency 'pry'
